@@ -1,0 +1,65 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.background-image{
+    background-image: url(/images/banner-1.jpg);
+    height: 100vh;
+    position: relative 
+ }
+.child-1{
+    display: inline-block;
+    width: 39.7%;
+    background: navy;
+    box-sizing: border-box;
+    margin-right: -3px;
+}
+.child-1 img{
+    margin-left: 170px;
+}
+.child-2{
+    display: inline-block;
+    width: 60.2%;
+    height: 72px;
+    padding-top: 27px;
+    vertical-align: top;
+    background: yellow;
+    box-sizing: border-box;
+    padding-left: 70px;
+}
+span{
+    padding-right: 20px;
+    color: navy;
+}
+.child-2 span i{
+    padding-left: 10px;
+
+}
+/* ............................................... */
+.book{
+    display: inline-block;
+}
+.book-2{
+    padding-left: 250px;
+}
+
+.header{
+    position: absolute 
+}
+.left, .right{
+    display: inline-block;
+    width: 50%;
+    margin: -2px;
+}
+.right{
+    text-align: right;
+}
+.right ol{
+    list-style-type: none;
+    text-align: right;
+}
+.right ol li{
+    display: inline-block;
+    padding: 10px;
+}
